@@ -1,0 +1,54 @@
+/* CARDS */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.two-rows{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 10px;
+    height: vh;
+}
+.card{
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+.card-1 {
+    background: url('./img/2.jpg') no-repeat center center/cover;    
+}
+.card-2 {
+    background: url('./img/3.jpg') no-repeat center center/cover;
+}
+.card-3 {
+    background: url('./img/4.jpg') no-repeat center center/cover;
+}
+.card-4 {
+    background: url('./img/5.jpg') no-repeat center center/cover;
+    grid-column: 1/2.5;
+}
+.card-5 {
+    background: url('./img/6.jpg') no-repeat center center/cover;
+    grid-column: 1/2.5;
+}
+/* Exlusive offers*/
+.offer-card .descrip{
+    padding: 10px;
+}
+.offer-card .descrip p{
+    padding: 5px 0px;
+}
+.offer-card .descrip i{
+    color: #29222262;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-card{
+    border: 1px solid #000000;
+    padding: 5px;
+}

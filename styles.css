@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container a{
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* Navegacion*/
+.cuadro{
+    background: #F4F4F4;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.barra{
+    padding: 10px;
+    background: #222222;
+    color: #ffffff;
+}
+.search-input{
+    padding: 10px;
+    border: none;
+    width: 350px;
+    margin-right: 1px;
+}
+.wishlist{
+    display: flex;
+}
+.select-css{
+    display: block;
+    padding: 10px;
+    border: none;
+    font-size: 11px;
+}
+.barra a{
+    color: #ffffff;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.account{
+    display: flex;
+    font-size: 12px;
+}
+.account ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 20px 10px;
+}
+.nav-main a:hover{
+    border-bottom: 2px solid #797979;
+}
+.search a i{
+    color: #ffffff;
+}
+.search a{
+    display: inline-block;
+    background: #222222;
+    padding: 2px;
+}
+.logo{
+    display: flex;
+}
+.logo li i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.i-busqueda{
+    display: inline-block;
+    border: 0;
+    padding: 15px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+.i-busqueda i{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.search-box{
+    display: flex;
+}
+/* BANNER */
+.banner{
+    color: #ffffff;
+    width: 100%;
+    height: 550px;
+    background: url('./img/1.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto{
+    width: 80%;
+    margin: auto;
+}
+.texto h1{
+    font-size: 90px;
+}
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    border: 0;
+    padding: 10px 20px;
+}
+.gris{
+    background: #9b9b9b;
+}
+.gris-fuerte{
+    background: #4a4a4a;
+}
+.gris-claro{
+    background: #f4f4f4;
+}
+.titles{
+    padding: 50px;
+    text-align: center;
+}
+.titles h1{
+    font-size: 25px;
+}
+.arrows{
+    text-align: end;
+}
+.arrows i{
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+}
+/*.products{
+    border: 1px solid #222222;
+    padding: 1px;    
+}*/
+.offers-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+.offer-card{
+    display: flex;
+}
+.brands{
+    background: #F4F4F4;
+    padding: 50px;
+}
+.brand-header {
+    padding: 15px;
+}
+.brand-logos ul{
+    display: flex;
+    justify-content: space-between;    
+}
+.footer-nav{
+    background: #222222;
+}
+.col{
+    color: #ffffff;
+}
+.div-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+.info{
+    padding: 10px;
+}
+.col{
+    padding: 10px;
+    font-size: 12px;
+    justify-content: center;
+}
+.col .info{
+    margin-right: 15px;
+}
+.col h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.col h3{
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.col li{
+    padding: 5px;
+}
+.foot{
+    background: #000000;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 10px;
+}
